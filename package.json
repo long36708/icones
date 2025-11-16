@@ -22,6 +22,7 @@
     "typecheck": "vue-tsc --noEmit",
     "dev:electron": "npm -C ./electron run dev",
     "build": "NODE_ENV=production vite build",
+    "build:preview": "cd dist && http-server",
     "build:electron": "NODE_ENV=production npm -C ./electron run build"
   },
   "dependencies": {
